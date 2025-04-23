@@ -4,53 +4,56 @@ A simple and interactive web app built with **Python** and **Streamlit** to chec
 
 ---
 
+## 🌐 Live Preview  
+👉 [https://passwordstrengthchecked.streamlit.app/](https://passwordstrengthchecked.streamlit.app/)
+
+---
+
 ## 🚀 Features
 
-- 🔍 Real-time Password Strength Evaluation
-- ✅ Checks for:
-  - Minimum length (8+ characters)
-  - Uppercase and lowercase letters
-  - Digits (0-9)
-  - Special characters (`!@#$%^&*()-_`)
-- 💡 Smart suggestions to improve weak passwords
-- 🔁 Random Strong Password Generator
-- 🎨 User-friendly and clean UI with emojis 😄
+- Real-time password strength checking
+- Suggests improvements for weak passwords
+- Detects:
+  - ✅ Minimum 8 characters
+  - ✅ Uppercase & lowercase letters
+  - ✅ At least one digit
+  - ✅ Special characters (`!@#$%^&*()-_`)
+- Includes Password Generator
+- Emoji-based user-friendly UI 😄
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python 3**
-- **Streamlit**
-- **Regex (re module)**
+- Python
+- Streamlit
+- Regex (`re` module)
 
 ---
 
-## 💻 How to Run Locally
+## ⚙️ How to Run This App Locally
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/MohammedDaniyalRaza/password-strength-checker.git
-   cd password-strength-checker
+### 1️⃣ Clone the Repository
 
-2. **Create a Virtual Environment (Optional but Recommended)
+```bash
+git clone https://github.com/MohammedDaniyalRaza/password-strength-checker.git
+cd password-strength-checker
 
-    ``Bash
-    python -m venv venv
-    venv\Scripts\activate  # Windows
 
-3. **Install Dependencies
-    ``Bash
-    pip install streamlit
+2️⃣ Create a Virtual Environment
+bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
 
-4. Run the App
-    ``Bash
-    streamlit run app.py
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
 
-📝 License
-This project is open-source and available under the MIT License.
+3️⃣ Install Dependencies
+bash
+pip install streamlit
 
-📬 Contact
-Made with ❤️ by Daniyal Raza
-qadrimohammeddaniyalraza@gmail.com
-
+4️⃣ Run the App
+bash
+streamlit run app.py
