@@ -32,11 +32,11 @@ if password:
     else:
         review.append("✖️ Password Should contain at least one digit")
 
-    if re.search(r"[!@#$%^&*()]", password):
+    if re.search(r"[!@#$%^&*()-_]", password):
         score+=1
 
     else:
-        review.append("✖️ Password Should contain atleast special character 👉🏻 !@#$%^&*()")
+        review.append("✖️ Password Should contain atleast special character 👉🏻 !@#$%^&*()-_")
 
     if score == 4 :
         review.append("☑️ Now Your Password Is Storng!🔒")
@@ -57,7 +57,7 @@ else:
 
 
 def generate_password(length=12):
-    chars = string.ascii_letters + string.digits + "!@#$%^&*()"
+    chars = string.ascii_letters + string.digits + "!@#$%^&*()-_"
     return ''.join(random.choice(chars) for _ in range(length))
 
 if st.button("Generate Strong Password"):
