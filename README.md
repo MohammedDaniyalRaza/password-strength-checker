@@ -57,3 +57,7 @@ pip install streamlit
 4️⃣ Run the App
 bash
 streamlit run app.py
+
+📬 Contact
+Made with ❤️ by Daniyal Raza
+qadrimohammeddaniyalraza@gmail.com
